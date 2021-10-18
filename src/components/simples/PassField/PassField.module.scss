@@ -1,0 +1,15 @@
+.root {
+    position: relative;
+}
+
+.pass {
+    position: absolute;
+    width: 25px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 25px;
+    top: 27px;
+    cursor: pointer;
+}

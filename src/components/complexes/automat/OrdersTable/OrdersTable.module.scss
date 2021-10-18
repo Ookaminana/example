@@ -1,0 +1,59 @@
+@import '../../../../styles/config';
+
+.root {
+}
+
+.table {
+    width: 100%;
+
+    tr {
+        border-bottom: 1px solid #e1e1e1;
+    }
+
+    th {
+        padding-bottom: 20px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #868686;
+        text-align: left;
+    }
+
+    td {
+        padding: 30px 40px 30px 0;
+        font-size: 18px;
+        line-height: 21px;
+        color: #17171b;
+    }
+}
+
+// Th
+.thContainer {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.thTitle {
+}
+
+.thArrows {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.thArrow {
+    fill: #868686;
+
+    &:first-child {
+        margin-bottom: 5px;
+    }
+}
+.thArrow.active {
+    fill: $color-primary;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}

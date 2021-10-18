@@ -1,0 +1,79 @@
+.main {
+    display: flex;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.h3 {
+    margin-bottom: 46px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 2%;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.margBtn {
+    height: 70px;
+    width: 20%;
+}
+
+.createBtn {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.margLup {
+    width: 80%;
+    height: 100%;
+    padding-left: 2%;
+    position: relative;
+}
+
+.lupa {
+    text-align: center;
+    position: absolute;
+    margin: 20px 0 0 30px !important;
+    z-index: 1;
+    float: left;
+}
+
+.search_field {
+    background: #f9f9f9 !important;
+    border-radius: 10px;
+    width: 100% !important;
+    height: 70px !important;
+    padding-left: 93px !important;
+    position: absolute;
+    // color: #bababa;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    line-height: 21px !important;
+
+    &::-webkit-input-placeholder {
+        color: #bababa !important;
+    }
+    &::-moz-placeholder {
+        color: #bababa !important;
+    }
+}
+
+.loader {
+    text-align: center;
+}

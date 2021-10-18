@@ -1,0 +1,32 @@
+.root {
+    width: 400px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & > * {
+        margin-left: 40px;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    a {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #494949;
+    }
+}

@@ -1,0 +1,113 @@
+@import '../../../../styles/config';
+
+.root {
+}
+
+.header {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.content {
+    margin-top: 12px;
+    background: #f9f9f9;
+    border-radius: 15px;
+    padding: 23px 0;
+}
+
+.logsList {
+    height: 318px;
+    padding: 0 13px;
+    overflow-y: auto;
+}
+
+.logListContainer {
+    padding: 10px 0;
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        width: 3px;
+        height: 100%;
+        background: #d3d3d3;
+        border-radius: 1.5px;
+        top: 0;
+        left: 175px;
+    }
+}
+
+.empty {
+    color: #b5b5b5;
+    font-size: 18px;
+}
+
+// Log item
+.logItem {
+    display: flex;
+    margin-bottom: 56px;
+}
+
+.logItemLeft {
+}
+
+.logItemLevel {
+    width: 150px;
+    height: 30px;
+    background-color: $color-primary;
+    border-radius: 2px;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: bold;
+    letter-spacing: 0.39px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 58px;
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        border-left: 11px solid $color-primary;
+        border-top: 6px solid transparent;
+        border-bottom: 6px solid transparent;
+        right: -11px;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background: #fff;
+        border: 2px solid $color-primary;
+        border-radius: 50%;
+        right: -36px;
+    }
+}
+
+.logItemRight {
+    flex: 1 1 0;
+}
+
+.logItemTime {
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(33, 33, 33, 0.5);
+    padding-top: 8px;
+}
+.logItemMessage {
+    margin-top: 7px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

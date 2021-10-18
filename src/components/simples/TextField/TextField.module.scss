@@ -1,0 +1,47 @@
+@import '../../../styles/config';
+
+.root {
+}
+
+.input {
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.75px;
+    color: $color-black;
+    height: 80px;
+    width: 100%;
+
+    &::placeholder {
+        color: $color-placeholder;
+    }
+}
+
+.icon {
+    position: absolute;
+    cursor: pointer;
+    right: 30px;
+}
+
+.note {
+    font-size: 14px;
+    margin-top: 4px;
+    padding-left: 25px;
+}
+
+.error {
+    .input {
+        background-color: rgb(255, 204, 204);
+    }
+    .note {
+        color: red;
+    }
+}
+
+.label {
+    margin-bottom: 10px;
+    font-size: 14px;
+}

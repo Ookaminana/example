@@ -1,0 +1,97 @@
+.elem {
+    margin-bottom: 18px;
+}
+
+.colTop {
+    width: 910px !important;
+}
+
+.colBunker {
+    // max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.colBunkerVolumeSelector {
+    max-width: 10%;
+}
+
+.colBunkerType {
+    max-width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.colBunkerTypeSelector {
+    max-width: 95%;
+}
+
+.colBunkerDeleteSVG {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 5%;
+    cursor: pointer;
+}
+
+// BunkerTypeEditor
+
+.addBunker {
+    width: 407px;
+}
+
+// BunkerItem
+
+.bunkerItem {
+    display: flex;
+    align-items: center;
+
+    & > * {
+        margin-right: 20px;
+    }
+}
+
+.bunkerItemNumber {
+    flex: 1 1 0;
+    height: 80px;
+    line-height: 80px;
+    background: #ffffff;
+    box-shadow: 0px 5.05227px 14.435px rgba(219, 206, 206, 0.1);
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 0 25px;
+}
+
+.bunkerItemVolumeWrap {
+    width: 160px;
+    position: relative;
+}
+.bunkerItemVolumeInput {
+    padding-right: 50px;
+}
+.bunkerItemVolumeUnit {
+    position: absolute;
+    right: 12px;
+    top: 28px;
+    width: 28px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.bunkerItemTypeWrap {
+    width: 206px;
+}
+
+.bunkerItemDelete {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+}

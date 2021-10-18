@@ -1,0 +1,30 @@
+.modal {
+    width: 1050px;
+}
+
+.buttons {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+    & > * {
+        margin-right: 33px;
+
+        &:first-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.dates {
+    display: flex;
+    flex-direction: row;
+}
+
+.dateStart {
+    width: 49%;
+}
+
+.dateEnd {
+    margin-left: 10px;
+    width: 49%;
+}

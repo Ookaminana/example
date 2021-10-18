@@ -1,0 +1,35 @@
+.btn {
+    height: 100%;
+}
+.item {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 25px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.bunkerNumber {
+    width: 150px;
+    border-right: 1px solid rgba(23, 23, 27, 0.12);
+}
+
+.tasteName {
+    flex: 1 1 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 30px;
+}
+
+.tasteEmpty {
+    color: rgba(23, 23, 27, 0.5);
+}
+
+.icon {
+    cursor: pointer;
+}
+.error {
+    color: red;
+}

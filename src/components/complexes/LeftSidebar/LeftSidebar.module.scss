@@ -1,0 +1,94 @@
+@import '../../../styles/config';
+
+.root {
+    width: 240px;
+    background-color: $color-black;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    flex: 1 1 0;
+}
+
+.logoWrap {
+    padding: 30px 15px 30px 25px;
+}
+
+.menu {
+    margin-top: 34px;
+}
+
+.menuItem {
+    padding: 5px 0;
+}
+
+.menuItemLink {
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.menuItemActiveLink {
+    color: $color-green;
+}
+
+.bottom {
+    padding: 32px 42px;
+}
+
+.logout {
+    padding: 0;
+    border: 0;
+    background: none;
+
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: #afafaf;
+}
+
+.logoutIcon {
+    margin-right: 20px;
+}
+
+// Menu Items Group
+
+.menuItemsGroup {
+    margin-bottom: 20px;
+}
+
+.menuItemsGroupHeader {
+    padding: 0 15px 0 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.menuItemsGroupHeaderTitle {
+    flex: 1 1 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.menuItemsGroupBody {
+    display: none;
+
+    padding: 5px 15px 0 25px;
+}
+
+.open {
+    .menuItemsGroupBody {
+        display: block;
+    }
+    .menuItemsGroupHeaderArrow {
+        transform: rotate(180deg);
+    }
+}

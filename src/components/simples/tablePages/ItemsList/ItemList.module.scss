@@ -1,0 +1,26 @@
+.root {
+}
+
+.actions {
+    display: inline-flex;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    border: none;
+    background: none;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.loader {
+    text-align: center;
+    padding-top: 30px;
+}

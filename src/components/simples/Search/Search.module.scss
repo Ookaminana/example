@@ -1,0 +1,29 @@
+.root {
+    background: #f9f9f9;
+    border-radius: 10px;
+    height: 70px;
+    padding: 0 35px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.icon {
+}
+
+.input {
+    flex: 1 1 0;
+    padding: 8px 0 8px 25px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+
+    &::placeholder {
+        color: #bababa;
+    }
+}

@@ -1,0 +1,23 @@
+@import '../../../styles/config';
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.leftSidebarWrap {
+    display: flex;
+    overflow-y: auto;
+    background-color: #17171b;
+}
+
+.right {
+    flex: 1 1 0;
+    overflow: auto;
+    background: #fff;
+}
+
+.main {
+    padding: 0 34px 50px 25px;
+}

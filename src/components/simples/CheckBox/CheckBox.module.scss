@@ -1,0 +1,32 @@
+.check {
+    display: flex;
+    font-display: row;
+    align-items: center;
+    width: 20%;
+    margin-bottom: 13px;
+}
+
+.checkbox {
+    width: 21px;
+    height: 21px;
+    border-radius: 2px;
+    border: 2px solid #1890ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mark {
+    width: 11px;
+    height: 11px;
+    background-repeat: 5px;
+    background: #1890ff;
+}
+
+.label {
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+}

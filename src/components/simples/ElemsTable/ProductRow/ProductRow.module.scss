@@ -1,0 +1,47 @@
+.mainRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px 0 20px;
+    border-top: 1px solid #e1e1e1;
+
+    &:hover {
+        background-color: #f9f9f9;
+        border-radius: 15px;
+    }
+}
+
+.leftPartTable {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+
+.firstColumn {
+}
+
+.nameItem {
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.rightPartTable {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 5%;
+}
+
+.icons {
+    &:hover {
+        cursor: pointer;
+    }
+}

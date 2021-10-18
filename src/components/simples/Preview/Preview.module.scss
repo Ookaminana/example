@@ -1,0 +1,15 @@
+@import '../../../styles/config';
+
+.img {
+    width: 100%;
+    height: auto;
+    background-color: $color-primary;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+}

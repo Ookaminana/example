@@ -1,0 +1,35 @@
+@import '../../../styles/config';
+
+.root {
+    display: flex;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 8px;
+}
+
+.link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(33, 33, 33, 0.4);
+    margin-right: 42px;
+
+    display: inline-block;
+    position: relative;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.activeLink {
+    color: $color-primary;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        border-top: 2px solid $color-primary;
+        left: 0;
+        bottom: -9px;
+    }
+}

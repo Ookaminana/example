@@ -1,0 +1,117 @@
+.root {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.leftWrapper {
+    width: 40%;
+    background: #17171b;
+    border-radius: 15px;
+    padding: 40px 35px;
+
+    .editIcon {
+        display: flex;
+        justify-content: end;
+        cursor: pointer;
+    }
+
+    svg {
+        fill: #fff;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nameLogo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .deleteIcon {
+        display: flex;
+        justify-content: end;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+
+    .img {
+        width: 98px;
+        height: 98px;
+        border-radius: 50%;
+        background-image: url('../../../../assets/images/defaultPhoto.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-right: 30px;
+        display: flex;
+    }
+
+    .name {
+        flex: 1 1 0;
+        a {
+            // font-family: ABeeZee;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 28px;
+            // display: flex;
+            // align-items: center;
+            cursor: pointer;
+
+            color: #ffffff;
+        }
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+
+        .h {
+            font-style: italic;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+            color: #5e5e5e;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+        .label {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            color: #7a7a7a;
+            margin-bottom: 15px;
+        }
+
+        .white {
+            color: #fff;
+        }
+    }
+}
+
+.rightWrapper {
+    width: 60%;
+    max-height: 560.57px;
+    background: #f9f9f9;
+    border-radius: 15px;
+    margin-left: 25px;
+    padding: 40px 35px;
+    overflow-y: auto;
+
+    .h {
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #ababab;
+    }
+}

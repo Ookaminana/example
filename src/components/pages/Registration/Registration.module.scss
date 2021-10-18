@@ -1,0 +1,26 @@
+@import '../../../styles/config';
+
+.main {
+    display: flex;
+    height: 100%;
+    background-color: #212121;
+    flex-direction: row;
+}
+
+.leftContainer {
+    width: 680px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightContainer {
+    flex: 1 1 0;
+
+    background-image: url('../../../assets/images/background-login.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

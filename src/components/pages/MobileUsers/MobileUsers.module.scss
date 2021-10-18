@@ -1,0 +1,19 @@
+@import '../../../styles/config';
+
+.search {
+    padding-bottom: 40px;
+}
+
+.userPhoto {
+    width: 35px;
+    height: 35px;
+    background-color: #66b32e;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.emptyFullName {
+    color: $color-placeholder;
+}

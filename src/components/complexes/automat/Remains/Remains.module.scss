@@ -1,0 +1,22 @@
+.root {
+}
+
+.body {
+    margin-top: 21px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+    margin-bottom: -30px;
+}
+
+.indicatorWrap {
+    padding: 0 12px;
+    margin-bottom: 30px;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}

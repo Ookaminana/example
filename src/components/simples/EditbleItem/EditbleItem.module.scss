@@ -1,0 +1,26 @@
+.root {
+    cursor: pointer;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    // max-width: 538px;
+    justify-content: space-between;
+    padding: 25px 30px;
+    border-radius: 10px;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+    box-shadow: 0px 5.05227px 14.435px rgba(219, 206, 206, 0.1);
+}
+.rightBlock {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1 1 0;
+    margin-right: 30px;
+}

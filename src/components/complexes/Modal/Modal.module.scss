@@ -1,0 +1,82 @@
+.h3 {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 26px;
+}
+
+.file {
+    margin-bottom: 25px;
+}
+
+.nameBrand,
+.nameFlavor,
+.nameSupplement {
+    margin-bottom: 31px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.productMain {
+    width: 910px;
+}
+
+.productRow {
+    display: flex;
+    margin: 0 -10px;
+}
+
+.productCol {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.productFieldGroup {
+    margin-bottom: 20px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.productCharacteristics {
+    margin-top: 33px;
+    margin-bottom: 54px;
+}
+
+.productCharacteristicsTitle {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+.productButtons {
+    display: flex;
+    align-items: center;
+
+    & > * {
+        margin-right: 33px;
+    }
+}
+
+.flavorMain {
+    width: 445px;
+}
+
+.productFlavors {
+    margin-bottom: 35px;
+}
+
+.productFieldGroup {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}

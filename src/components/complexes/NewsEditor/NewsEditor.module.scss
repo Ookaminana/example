@@ -1,0 +1,16 @@
+.modal {
+    width: 525px;
+}
+
+.buttons {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+    & > * {
+        margin-right: 33px;
+
+        &:first-child {
+            margin-right: 0;
+        }
+    }
+}

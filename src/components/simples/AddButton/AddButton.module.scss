@@ -1,0 +1,14 @@
+.root {
+    cursor: pointer;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='15' ry='15'  stroke='%23B5B5B5FF'  stroke-width='3' stroke-dasharray='12' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    padding: 25px;
+    // width: 100%;
+}
+.label {
+    color: #b5b5b5;
+    font-size: 18px;
+}

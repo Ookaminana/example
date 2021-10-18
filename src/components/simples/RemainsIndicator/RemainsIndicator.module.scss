@@ -1,0 +1,95 @@
+@import '../../../styles/config';
+
+.root {
+}
+
+.title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.container {
+    margin-top: 11px;
+    padding: 26px 15px 23px;
+    background: #f9f9f9;
+    border-radius: 15px;
+}
+
+.scalesList {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.scaleWrap {
+    padding: 0 11px;
+}
+.scale {
+    width: 11px;
+    height: 214px;
+    background: #e1e1e1;
+    border-radius: 50px;
+    position: relative;
+}
+
+.scaleIndicator {
+    width: 11px;
+    background: $color-primary;
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.scaleIndicator.ends {
+    background: #ff0000;
+}
+
+.namesList {
+    border-top: 1px solid #e1e1e1;
+    padding-top: 16px;
+}
+
+.namesListContainer {
+    margin-bottom: -16px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.namesListContainer.twoColumns {
+    width: 280px;
+}
+
+.nameItemWrap {
+    flex: 1 1 0;
+    padding: 0 20px;
+}
+.nameItem {
+    font-size: 18px;
+    line-height: 21px;
+    color: #17171b;
+    margin-bottom: 16px;
+    padding-left: 9px;
+    position: relative;
+    max-width: 100px;
+
+    &:before {
+        content: '';
+        position: absolute;
+        width: 4px;
+        height: 100%;
+        background: $color-primary;
+        border-radius: 50px;
+        left: 0;
+        top: 0;
+    }
+}
+
+.nameItem.ends {
+    &:before {
+        background: #ff0000;
+    }
+}

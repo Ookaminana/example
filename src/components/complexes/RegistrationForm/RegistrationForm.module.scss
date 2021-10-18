@@ -1,0 +1,76 @@
+@import '../../../styles/config';
+
+.content {
+    width: 435px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.auth_h2 {
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 51px;
+}
+
+.formGroup {
+    margin-bottom: 27px;
+}
+
+.pass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keep_pass_box {
+    display: block;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.keep_pass {
+    text-decoration: none;
+    color: #c4c4c4;
+}
+
+.marg_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-style: normal;
+    font-weight: bold;
+    line-height: 160%;
+
+    margin-top: 32px;
+}
+
+.marg_btn > label {
+    font-size: 16px;
+    color: #c4c4c4;
+}
+
+.marg_btn > a {
+    font-size: 18px;
+    color: #66b32e;
+    text-decoration: none;
+}
+
+.button {
+    border-radius: 10px;
+    // width: 130px;
+    height: 65px;
+    font-size: 18px;
+    background-color: $color-green;
+
+    &:hover {
+        background-color: $color-green;
+    }
+
+    &:active {
+        color: #fff;
+    }
+}

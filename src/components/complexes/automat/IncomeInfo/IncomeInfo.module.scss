@@ -1,0 +1,42 @@
+.root {
+}
+
+.content {
+    margin-top: 25px;
+    display: flex;
+}
+
+.block {
+    flex: 1 1 0;
+}
+
+.blockTitle {
+    font-size: 16px;
+    line-height: 19px;
+    color: #868686;
+    margin-bottom: 12px;
+    padding: 0 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blockValue {
+    height: 70px;
+    background: #f9f9f9;
+    padding: 0 13px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 21px;
+    color: #17171b;
+}
+
+.block:first-child .blockValue {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.block:last-child .blockValue {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

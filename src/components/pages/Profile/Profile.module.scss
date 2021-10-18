@@ -1,0 +1,19 @@
+.block {
+    margin-left: 20px;
+    padding: 25px 40px;
+}
+.root {
+    max-width: 1150px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 80px;
+
+    .link {
+        margin-right: 25px;
+    }
+}
